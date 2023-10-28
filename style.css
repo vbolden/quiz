@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Poppins:wght@300&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-color: #F8F6F4;
+}
+
+h1 {
+    font-family: 'Fredericka the Great', serif;
+    font-size: 46px;
+    padding-bottom: 90px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background-color: #176B87;
+}
+
+.quiz-body {
+    padding: 20px 0;
+}
+
+button {
+    background-color: #04364A;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    border: 2px solid #04364A;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+button:hover:not([disabled]) {
+    background-color: #DAFFFB;
+    color: #04364A;
+}
+
+div.btns:disabled {
+    cursor: no-drop;
+}
+
+
+.correct  {
+    background-color: #A6FF96;
+    color: #000;
+}
+
+.incorrect {
+    background-color: #F31559;
+    color: #000;
+}
+
+button.reset {
+    margin: 0 auto;
+    width: 50%;
+}
